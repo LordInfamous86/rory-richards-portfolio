@@ -126,8 +126,8 @@
       </aside>
     </div>
     <section id="projects"><div class="wrap">
-      <div class="eyebrow">Featured project</div><h2>A catalog with more than one way to explore.</h2>
-      <p class="intro">Hero Archive is a full-stack, multi-publisher character explorer built as a portfolio project.</p>
+      <div class="eyebrow">Selected projects</div><h2>Projects built to explore, calculate, and decide.</h2>
+      <p class="intro">These projects combine interactive interfaces with data, simulation, and persistent state.</p>
       <article class="project-card">
         <div class="project-gallery">
           <figure class="project-shot archive-shot"><img src="assets/hero-archive-catalog.png" alt="Hero Archive character catalog filtered to Marvel, showing search, publisher filters, pagination, and character cards"><figcaption>Searchable catalog with publisher filters</figcaption></figure>
@@ -162,6 +162,24 @@
           <div class="tags"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Astronomy Engine</span><span class="tag">Supabase Auth</span><span class="tag">PostgreSQL</span><span class="tag">Render</span></div>
           <div class="project-links"><a class="button primary" href="https://the-orrery.onrender.com" target="_blank" rel="noreferrer">Live demo ↗</a><a class="button" href="https://github.com/LordInfamous86/the-orrery" target="_blank" rel="noreferrer">Source code ↗</a></div>
           <small class="project-note">The hosted demo may take a moment to load on your first visit. Planetary positions are presented separately from the app’s traditional astrological interpretations.</small>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-gallery">
+          <figure class="project-shot starship-shot"><img src="assets/starship-command-campaign.png" alt="Starship Command campaign map connecting four operations with mission intel and branching routes"><figcaption>Four connected operations with branching campaign routes</figcaption></figure>
+          <figure class="project-shot starship-shot"><img src="assets/starship-command-crisis.png" alt="Starship Command micrometeorite crisis with crew advice and two resource trade-off choices"><figcaption>Crew-led crisis with consequential resource choices</figcaption></figure>
+        </div>
+        <div class="project-copy">
+          <div class="project-label">Browser-playable operations game</div><h3>Starship Command: The Silent Relay</h3><div class="project-subtitle">Command the UES Meridian. Carry every decision forward.</div>
+          <p>I built a science-fiction campaign game where players assign specialists, manage ship resources, respond to crises, and carry mission intel and outcomes into later operations.</p>
+          <ul>
+            <li>Separated the DOM-free simulation engine from the browser interface so mission rules can run in both the browser and Node.js.</li>
+            <li>Connected four operations with branching outcomes, an optional epilogue, crew progression, and persistent campaign archives.</li>
+            <li>Added browser-local saves for the static demo and an optional Node API for local server-backed campaigns.</li>
+          </ul>
+          <div class="tags"><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Node.js</span><span class="tag">Simulation design</span></div>
+          <div class="project-links"><a class="button primary" href="https://lordinfamous86.github.io/Starship-Command/" target="_blank" rel="noreferrer">Play live demo ↗</a><a class="button" href="https://github.com/LordInfamous86/Starship-Command" target="_blank" rel="noreferrer">Source code ↗</a></div>
+          <small class="project-note">The live demo saves campaign progress in this browser; progress does not sync across devices.</small>
         </div>
       </article>
     </div></section>
